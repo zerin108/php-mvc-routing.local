@@ -8,7 +8,5 @@
 #ini configs
 #enable displaying errors in generated markup
 ini_set('display_errors', 1);
-
 require_once "application/bootstrap.php";
 
-echo "Hello? world";
