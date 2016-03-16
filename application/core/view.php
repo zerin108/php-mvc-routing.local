@@ -16,6 +16,6 @@ class View{
         #extract all array elements to variables with names as indexes and values as array element value
         if(is_array($data)) extract($data);
 
-        include "application/views" . $template_view;
+        include "application/views/" . $template_view;
     }
 }
